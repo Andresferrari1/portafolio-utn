@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    
 }
 
 /* HEADER */
@@ -28,6 +29,7 @@
     background-color: #232b57;
 }
 
+
 /* MAIN SECTION-PERFIL */
 
 .cont-profile{
@@ -38,6 +40,8 @@
     text-align: center;
     height: 100vh;
 }
+
+
 
 .profile{
     padding: 20px;
@@ -94,9 +98,9 @@
 /* PROYECTOS */
 
 .cont-section{
+    background-color: #232b57;
     display: flex;
     height: 100vh;
-    background-color: #232b57;
     padding-bottom: 200px;
 }
 
@@ -172,11 +176,12 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 
+
 }
 
 .info h3{
     color: aliceblue;
-    padding-bottom: 5px;
+    padding-bottom: 15px;
     font-size: 40px;
 }
 
@@ -190,6 +195,8 @@
     font-size: 18px;
     justify-content: space-between;
     text-decoration: none;
+
+
 }
 
 
@@ -359,4 +366,24 @@
 
 footer{
     background-color: #232b57;
+    height: 100px;
+    padding-top: 10px;
+    display: flex; /* Usar flexbox para alinear los íconos */
+    gap: 20px; /* Espacio entre los íconos */
+    justify-content: center; 
+
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.bx {
+    font-size: 40px; 
+    color: #94949473; 
+    transition: transform 0.3s; 
+
+}
+.bx:hover {
+    transform: scale(1.1); 
 }

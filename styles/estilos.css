@@ -42,7 +42,6 @@
 }
 
 
-
 .profile{
     padding: 20px;
     display: block;
@@ -62,20 +61,33 @@
 }
 
 .cont-profile button{
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     padding: 12px;
     background-color: #424869; 
     border: 1px solid violet;
     border-radius: 15px;
-    width: 25%;
+    width: 30%;
     color: violet;
-    font-size: 20px;
+    font-size: 22px;
     transition: 0.3s;
 }
+button .icono-llamada .bx{
+    color: rgb(250, 146, 250);
+    font-size: 30px;
+    padding-top: 5px;
+}
+
 
 .cont-profile button:hover{
     background-color: violet;
     color: aliceblue;
 }
+
+
 
 .img-foto_mia {
     width: 400px; 

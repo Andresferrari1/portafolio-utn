@@ -399,3 +399,266 @@ footer a {
 .bx:hover {
     transform: scale(1.1); 
 }
+
+
+@media (max-width: 768px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #232b57;
+        padding: 10px 0;
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        font-size: 18px;
+        width: 100%;
+        align-items: center;
+        padding: 10px 0;
+    }
+
+    .navbar-nav a {
+        color: aliceblue;
+        text-align: center;
+        padding: 10px;
+        text-decoration: none;
+        width: 90%;
+        border-radius: 5px;
+        transition: background-color 0.3s;
+    }
+
+    .navbar-nav a:hover {
+        background-color: violet;
+        color: aliceblue;
+    }
+
+    .navbar-nav .home {
+        color: rgb(165, 88, 165);
+        font-weight: bold;
+    }
+
+    .navbar-toggler {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        color: aliceblue;
+        background: none;
+        border: none;
+        cursor: pointer;
+        margin-bottom: 10px;
+    }
+
+    .navbar-toggler:focus {
+        outline: none;
+    }
+
+    .navbar-nav.hidden {
+        display: none;
+    }
+
+
+/* CONT- PROFILE */
+
+.cont-profile {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.profile {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.cont-profile h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.cont-profile p {
+    font-size: 18px;
+    color: violet;
+    font-weight: 600;
+}
+
+.cont-profile button {
+    width: 80%;
+    margin: 20px auto;
+    font-size: 18px;
+    border-radius: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.img-foto_mia {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 20px;
+    box-shadow: -1px 5px 20px 5px rgba(59, 2, 59, 0.92);
+}
+/* PROYECTOS */
+
+.cont-section {
+    flex-direction: column;
+    align-items: center;
+    height: auto; 
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+.proyect {
+    padding: 20px;
+    text-align: center;
+    color: rgb(233, 169, 233);
+}
+
+.cont-proyectos {
+    padding-top: 20px;
+    width: 100%; 
+    justify-content: center;
+    display: flex;
+    flex-direction: column; 
+    gap: 20px;
+}
+
+.proyecto_img {
+    width: 100%; 
+    box-shadow: -1px 10px 30px 5px rgba(59, 2, 59, 0.7);
+    padding: 15px; 
+}
+
+
+.proyecto_img img {
+    height: 200px; 
+}
+
+.proyecto_img a {
+    font-size: 18px; 
+    margin-top: 15px;
+}   
+
+
+
+
+/* SOBRE MI */
+.cont-sobre_mi {
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    align-items: flex-start; 
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.info {
+    width: 100%;
+    text-align: center; 
+}
+
+.info h3 {
+    font-size: 30px; 
+    padding-bottom: 10px;
+}
+
+.info a {
+    display: inline-block; 
+    width: auto;
+    padding: 8px 12px; 
+    font-size: 16px; 
+}
+
+.text-sobre_mi {
+    width: 100%; 
+    padding-top: 10px;
+}
+
+.text-sobre_mi p {
+    font-size: 18px; 
+    text-align: justify; 
+}
+
+.text-sobre_mi span {
+    font-size: 20px; 
+}
+/* TECNOLOGIAS */
+
+.cont_tecno {
+    height: auto; 
+    padding: 20px 10px; 
+    text-align: center; 
+}
+
+.cont_tecno h3 {
+    font-size: 22px; 
+    padding: 20px 10px; 
+    text-align: center; 
+}
+
+.grid-tecno {
+    grid-template-columns: 1fr; 
+    gap: 15px; 
+    padding: 20px; 
+}
+
+.cont_imagen {
+    width: 100%; 
+    padding: 10px; 
+    border-radius: 8px; 
+}
+
+.cont_imagen img {
+    height: 80px; 
+    margin-bottom: 8px;
+}
+
+.cont_imagen p {
+    font-size: 14px; 
+    padding-top: 5px; 
+}
+/* CONTACTO */
+.form-section {
+    height: auto; 
+    padding: 20px 10px; 
+    text-align: center; 
+}
+
+.contact {
+    width: 100%;
+    font-size: 24px; 
+    text-align: center; 
+    justify-content: center; 
+    padding-bottom: 10px;
+}
+
+.formulario {
+    width: 100%; 
+    gap: 10px; 
+    padding: 0 10px; 
+}
+
+.input-form p {
+    font-size: 14px; 
+    margin: 0; 
+    text-align: start;
+}
+
+.input-form input, 
+.input-form .msj_form {
+    width: 100%; 
+    padding: 8px; 
+    border-radius: 8px; 
+}
+
+.input-form .enviar {
+    font-size: 16px; 
+    padding: 10px; 
+    border-radius: 8px; 
+}
+
+}

@@ -277,6 +277,7 @@ button .icono-llamada .bx{
     padding-top: 20px ;
     border-radius: 10px;
     border: 1px solid rgb(133, 86, 133); 
+    box-shadow: -1px 3px 20px 3px rgba(59, 2, 59, 0.842);
 }
 .cont_imagen img{
     width: 100%; 
@@ -590,31 +591,30 @@ footer a {
 
 .cont_tecno {
     height: auto; 
-    padding: 20px 10px; 
-    text-align: center; 
+    padding: 20px 10px;
+    text-align: center;
 }
 
-.cont_tecno h3 {
-    font-size: 22px; 
-    padding: 20px 10px; 
-    text-align: center; 
-}
 
 .grid-tecno {
     grid-template-columns: 1fr; 
     gap: 15px; 
-    padding: 20px; 
+    padding: 20px;
+    
 }
 
 .cont_imagen {
     width: 100%; 
     padding: 10px; 
-    border-radius: 8px; 
+    border-radius: 8px;
+
+
 }
 
 .cont_imagen img {
     height: 80px; 
     margin-bottom: 8px;
+
 }
 
 .cont_imagen p {

@@ -123,6 +123,7 @@ button .icono-llamada .bx{
     justify-content: center;
     align-items: center;
 
+
 }
 
 .carousel-item img {
@@ -130,6 +131,7 @@ button .icono-llamada .bx{
     width: 100%; 
     height: 600px; 
     object-fit: contain; 
+
 
 }
 
@@ -524,12 +526,12 @@ footer a {
 
 /* CARROUSEL */
 #carouselExampleControls {
-    max-width: 70%; /* Ocupa más espacio en pantallas pequeñas */
+    max-width: 80%; /* Ocupa más espacio en pantallas pequeñas */
     max-height: 300px; /* Reduce la altura del carrusel */
 }
 
 .carousel-item img {
-    height: 200px; /* Ajusta la altura en pantallas pequeñas */
+    height: 250px; /* Ajusta la altura en pantallas pequeñas */
     object-fit: cover; /* Ajusta la imagen sin deformarla */
 }
 
@@ -538,7 +540,7 @@ footer a {
     padding: 3px 8px;
     width: 50%;
     font-size: 6px;
-    border: 0.5px solid violet;
+    border: 1px solid violet;
 }
 
 .carousel-caption h5 {

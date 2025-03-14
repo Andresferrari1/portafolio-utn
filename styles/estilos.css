@@ -107,7 +107,64 @@ button .icono-llamada .bx{
     object-fit: cover; 
 }
 
+/* CAROUSEL BOOTSTRAP */
+
+.carousel-section {
+    background-color: #232b57;
+    padding-bottom: 100px;
+}
+
+#carouselExampleControls {
+    max-width: 60%; /* Ajusta el ancho del carrusel */
+    max-height: 400px; /* Ajusta la altura del carrusel */
+    overflow: hidden; /* Evita que las imágenes desborden */
+    margin: 0 auto; /* Centra el carrusel horizontalmente */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.carousel-item img {
+
+    width: 100%; 
+    height: 600px; 
+    object-fit: contain; 
+
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(60%); 
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 45%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #232b57b0; 
+    padding: 10px 20px;
+    border-radius: 5px;
+    width: auto;
+    max-width: 80%;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid violet;
+}
+
+.carousel-caption h5 {
+    font-size: 22px;
+    color: rgb(248, 182, 248);
+    font-weight: bold;
+    margin: 0;
+    cursor: pointer;
+}
+
+
+
 /* PROYECTOS */
+
 
 .cont-section{
     background-color: #232b57;
@@ -117,9 +174,13 @@ button .icono-llamada .bx{
 }
 
 .proyect{
-    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     padding: 50px;
     color: rgb(233, 169, 233);
+    background-color: #232b57;
     
 }
 
@@ -461,6 +522,35 @@ footer a {
         display: none;
     }
 
+/* CARROUSEL */
+#carouselExampleControls {
+    max-width: 70%; /* Ocupa más espacio en pantallas pequeñas */
+    max-height: 300px; /* Reduce la altura del carrusel */
+}
+
+.carousel-item img {
+    height: 200px; /* Ajusta la altura en pantallas pequeñas */
+    object-fit: cover; /* Ajusta la imagen sin deformarla */
+}
+
+.carousel-caption {
+    bottom: 40%; /* Baja la posición del texto */
+    padding: 3px 8px;
+    width: 50%;
+    font-size: 6px;
+    border: 0.5px solid violet;
+}
+
+.carousel-caption h5 {
+    font-size: 10px; 
+    display: inline-block;
+}
+
+
+.carousel-control-prev,
+.carousel-control-next {
+    display: none;
+}
 
 /* CONT- PROFILE */
 

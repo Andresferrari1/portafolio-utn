@@ -551,9 +551,23 @@ footer a {
 
 .carousel-control-prev,
 .carousel-control-next {
-    display: none;
+    width: 40px; 
+    height: 40px;
 }
 
+.carousel-control-prev {
+    left: 10px; 
+}
+
+.carousel-control-next {
+    right: 10px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    width: 25px; 
+    height: 25px;
+}
 /* CONT- PROFILE */
 
 .cont-profile {

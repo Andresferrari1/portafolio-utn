@@ -138,6 +138,12 @@ button .icono-llamada .bx{
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
     filter: invert(60%); 
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px; /* Tamaño del área clickeable */
+    height: 50px;
+    z-index: 10; /* Asegura que estén sobre las imágenes */
 }
 
 .carousel-caption {
@@ -548,15 +554,15 @@ footer a {
     display: inline-block;
 }
 
-
 .carousel-control-prev,
 .carousel-control-next {
-    width: 40px; 
+    width: 40px;
     height: 40px;
+    transform: translateY(350%); /* Centrar verticalmente */
 }
 
 .carousel-control-prev {
-    left: 10px; 
+    left: 10px;
 }
 
 .carousel-control-next {
@@ -565,7 +571,7 @@ footer a {
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    width: 25px; 
+    width: 25px;
     height: 25px;
 }
 /* CONT- PROFILE */

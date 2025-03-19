@@ -556,7 +556,7 @@ footer a {
 }
 
 .carousel-item.active .carousel-caption {
-    bottom: 50%; /* Baja suavemente */
+    bottom: 45%; /* Baja suavemente */
     opacity: 1;
 }
 

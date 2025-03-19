@@ -60,6 +60,8 @@
     font-weight: 600;
 }
 
+/* BOTON PARA TRANSICION LLAMATIVA */
+
 .cont-profile button {
     display: flex;
     gap: 8px;
@@ -70,7 +72,7 @@
     background-color: #424869; 
     border: 1px solid violet;
     border-radius: 15px;
-    width: 30%;
+    width: 60%;
     color: violet;
     font-size: 22px;
     transition: color 0.3s ease-in-out;
@@ -88,7 +90,7 @@
     width: 100%;
     height: 100%;
     background: linear-gradient(to right, transparent 0%, violet 50%, transparent 100%);
-    transition: left 0.9s ease-in-out;
+    transition: left 0.8s ease-in-out ;
 }
 
 /* Cuando el mouse pasa sobre el botón */
@@ -97,7 +99,7 @@
 }
 
 .cont-profile button:hover {
-    color: aliceblue;
+    color: rgb(204, 204, 204);
 }
 
 button .icono-llamada .bx {
@@ -105,6 +107,7 @@ button .icono-llamada .bx {
     font-size: 30px;
     padding-top: 5px;
 }
+
 
 .img-foto_mia {
     width: 400px; 

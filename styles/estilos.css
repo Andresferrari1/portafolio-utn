@@ -6,6 +6,39 @@
 }
 
 /* HEADER */
+/* Estilos generales */
+.navbar-nav a {
+    position: relative;
+    text-decoration: none;
+    color: aliceblue;
+    transition: color 0.3s ease-in-out;
+}
+
+/* Línea que aparece al pasar el mouse */
+.navbar-nav a::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -3px; /* Ajuste para la posición de la línea */
+    width: 0;
+    height: 2px;
+    background-color: violet;
+    transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+}
+
+/* Efecto al pasar el mouse */
+.navbar-nav a:hover {
+    color: violet;
+}
+
+.navbar-nav a:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+
+
+
 .navbar-nav {
     font-size: 22px;
     gap: 50px;
@@ -27,7 +60,7 @@
 
 .navbar{
     background-color: #232b57;
-}
+} 
 
 
 /* MAIN SECTION-PERFIL */
